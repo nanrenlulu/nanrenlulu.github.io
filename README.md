@@ -72,7 +72,7 @@
 <p><a href="https://" rel="nofollow" target="_blank">https://</a></p> -->
 <hr /> 
 <p>发送任意内容邮件到 邮箱一: <a href="mailto:nanrenlulu@gmail.com"><span class="__cf_email__" data-cfemail="">nanrenlulu@gmail.com</span></a>（男人撸撸） 获得即可最新地址！</p> 
-<p>发送任意内容邮件到 邮箱二: <a href="mailto:berweweapon08@gmail.com"><span class="__cf_email__" data-cfemail="">berweweapon08@gmail.com</span></a> 获得即可最新地址！</p> 
+<p>发送任意内容邮件到 邮箱二: <a href="mailto:nanrenlulu@gmail.com"><span class="__cf_email__" data-cfemail="">nanrenlulu@gmail.com</span></a> 获得即可最新地址！</p> 
 <p>广告合作事宜请联系 邮箱: <a href="mailto:mvillani974@gmail.com"><span class="__cf_email__" data-cfemail="">mvillani974@gmail.com</span></a> </p> 
 <p>以上地址如无法打开请过几个小时再访问，抱歉</p><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
 
