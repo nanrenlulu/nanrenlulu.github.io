@@ -1,5 +1,6 @@
 地址发布</br></br>
 😎😎建议最好一定必须收藏当前网址到收藏夹😎😎</br></br>
+😎😎部分地区网络劫持导致打开的网站不是本站，请从发布页访问比较安全，推荐使用谷歌.edge等国外浏览器访问😎😎</br></br>
 👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇👇</br></br>
 ❤️ 👉 【本站发布页短地址防迷路】 ：<a href="https://github.com/nanrenlulu/nanrenlulu/wiki/%E6%9C%80%E6%96%B0%E5%9C%B0%E5%9D%80">https://www.jusaoge.com</a>  ❤️ 👉【打开后一定要收藏】</br></br>
 ❤️ 👉 【本站发布页短地址防迷路】 ：<a href="https://bitbucket.org/nanrenlulufabuye/fabuye/src/master/README.md">https://www.saohuowa.com</a>  ❤️ 👉【打开后一定要收藏】</br></br>
