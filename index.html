@@ -114,19 +114,19 @@
         var str ="9暂无结果，请稍后刷新重测"
         if (ping<200){
             $(this).css("color","red")
-            str ="1极快"
+            str ="极快"
         }
         if (ping>300 && ping<500){
             $(this).css("color","#efc562")
-            str ="2较快"
+            str ="较快"
         }
         if (ping>500 && ping<3000 ){
             $(this).css("color","#9a9a9a")
-            str ="3较慢"
+            str ="较慢"
         }
         if (ping>4000 ){
             $(this).css("color","#f0f0f0")
-            str ="4疑似无法访问，刷新本页可重测"
+            str ="疑似无法访问，刷新本页可重测"
         }
         $(this).text(""+str+"")
         // $(this).text(""+str+"" + "(" + ping * 1 + "ms)") 包含延时
