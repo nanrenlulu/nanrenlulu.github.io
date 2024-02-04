@@ -1,145 +1,418 @@
 
-<html lang="zh-cn"> 
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>男人撸撸|回家地址q5x7.com</title>
-    <meta name="description" content="男人撸撸 回家地址 nanrenlulu 视频 漫画 小说 图片 应有尽有"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="https://ldbbs.ldmnq.com/bbs/topic/images/2023-11/1cb077fa-e833-4d98-a033-f0b9ad1d0965.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://ldbbs.ldmnq.com/bbs/topic/images/2023-11/1cb077fa-e833-4d98-a033-f0b9ad1d0965.png">
-    <link rel="shortcut icon" href="https://ldbbs.ldmnq.com/bbs/topic/images/2023-11/1cb077fa-e833-4d98-a033-f0b9ad1d0965.png" />
-    <link rel="stylesheet" href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/bulma/0.9.1/css/bulma.min.css">
-    <script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-2-y/jquery/3.6.0/jquery.js"></script>
+    <title>男人撸撸|回家地址juruwa.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    /* 新增头部样式 */
+        .header {
+            background-color: #2C3E50; /* 深蓝色背景 */
+            color: #fff; /* 白色文字 */
+            text-align: center;
+            padding: 10px 0;
+            font-size: 1.2em;
+        }
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: #F5F7FA; /* 浅灰色背景 */
+            color: #333333; /* 深灰色文字 */
+        }
+        .container {
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .category {
+            background: #FFFFFF; /* 纯白背景 */
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            margin-bottom: 25px;
+            padding: 20px;
+        }
+        .category h2 {
+            margin-top: 0;
+            font-size: 1.4em;
+            color: #333333;
+            border-bottom: 2px solid #EFEFEF; /* 标题下的细边线 */
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .link {
+            flex: 1 1 calc(50% - 15px);
+            border: 1px solid #D6D6D6; /* 淡灰色边框 */
+            border-radius: 10px;
+            padding: 12px;
+            box-sizing: border-box;
+            text-align: center;
+            background: #EFEFEF; /* 淡灰色背景 */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            color: #1A73E8; /* 明亮的蓝色链接 */
+            font-weight: bold;
+            font-size: 1.1em;
+            cursor: pointer; /* 使链接看起来可点击 */
+            animation: colorChange 2s infinite; /* 应用颜色渐变动画 */
+        }
+        .link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 7px rgba(0,0,0,0.12);
+            background: #E0E0E0; /* 悬停时背景变化 */
+        }
 
+        /* PC 端样式 */
+        @media (min-width: 601px) {
+            .container {
+                width: 80%;
+                max-width: 800px;
+                margin: auto;
+            }
+            .link {
+                flex: 1 1 calc(50% - 15px);
+            }
+        }
 
+        /* 手机端样式 */
+        @media (max-width: 600px) {
+            .link {
+                flex: 1 1 calc(50% - 15px);
+            }
+        }
+        .link.accessible {
+            color: #FF4500; /* 可访问线路的颜色 */
+        }
 
+        .link.inaccessible {
+            color: #9ACD32; /* 不可访问线路的颜色 */
+        }
+        .link.accessible,
+        .link.inaccessible {
+            animation: none; /* 检测完成后移除动画 */
+        }
+        /* 渐变动画 */
+        @keyframes colorChange {
+            0%   { color: #1A73E8; }
+            50%  { color: #EFEFEF; }
+            100% { color: #1A73E8; }
+        }
+        .category h2 {
+            display: flex;
+            align-items: center;
+        }
+
+        .status-info {
+            margin-left: 10px;
+            font-size: 0.9em;
+        }
+
+        .status-info span {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            margin-right: 5px;
+            border-radius: 50%;
+        }
+
+        .accessible-info {
+            background-color: #FF4500;/* 可访问线路的颜色 */
+        }
+
+        .inaccessible-info {
+            background-color: #9ACD32;/* 不可访问线路的颜色 */
+        }
+        .accessible-info123 {
+            background-color: #FF00FF;/* 发布页线路的颜色 */
+        }
+        /* 调整固定按钮样式，适用于链接 */
+        .fixed-button {
+            position: fixed;
+            bottom: 30px;
+            padding: 15px 50px;
+            background-color: #1A73E8;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.2em;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            text-decoration: none; /* 移除链接的下划线 */
+            display: inline-block; /* 使链接表现得像按钮 */
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        .fixed-button:hover {
+            background-color: #0F57C7;
+        }
+
+        .left-button {
+            left: 20px;
+        }
+
+        .right-button {
+            right: 20px;
+        }
+        .footer {
+    background-color: #2C3E50; /* 与头部背景一致 */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
+
+.footer a {
+    color: #FFD700; /* 链接颜色 */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+        .linkkk {
+            flex: 1 1 calc(50% - 15px);
+            border: 1px solid #D6D6D6; /* 淡灰色边框 */
+            border-radius: 10px;
+            padding: 12px;
+            box-sizing: border-box;
+            text-align: center;
+            background: #EFEFEF; /* 淡灰色背景 */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            color: #FF00FF; /* 明亮的粉色链接 */
+            font-weight: bold;
+            font-size: 1.1em;
+            cursor: pointer; /* 使链接看起来可点击 */
+            
+    </style>
 </head>
-
-<body style="text-align:center">
-
-<section class="hero is-black is-bold">
-    <div style="padding: 10px;">
-        
-        <div class="container">
-            <h1 class="title is-size-5"><a href="#" target="_blank"><font color="red">回家</font>地址</a></h1>
-            <!-- <h2 class="subtitle">
-                <a href="#" target="_blank">https://<font color="red">回家</font>地址</a> 
-                <a href="#" target="_blank">https://juruwa.com</a>
-            </h2> -->
-        </div>
-        
+<body>
+    <div class="header">
+        记得收藏我们的发布页和邮箱！
     </div>
-</section>
-<div class="container has-text-weight-bold">
-    <div class="m-2">
-        <div class="m-2">
-            <a href="#" target="_blank" class="box p-3 has-background-black has-text-centered has-text-white">❤️请收藏本页到浏览器</span> & 牢记<b>回家地址</b>：https://www.<font color="red">juruwa</font>.com</a></a>
+    
+    <div class="container">
+        <!-- 分类 1 -->
+        <div class="category">
+            <h2>视频<div class="status-info">
+                    <span class="accessible-info"></span>可访问
+                    <span class="inaccessible-info"></span>不可访问
+                </div></h2>
+            <div class="links">
+                <a href="https://qqq.912219.xyz/" target="_blank" class="link">线路1</a>
+                <a href="https://qqq.912225.xyz/" target="_blank" class="link">线路2</a>
+                <!-- 可以继续添加更多链接 -->
+            </div>
         </div>
-        <a target="_blank" class="box p-2 has-text-centered" href="https://qqq.118433.xyz">
-            <p>https://qqq.<font color="red">118433</font>.xyz <span speed="https://qqq.118433.xyz">测速中</span></p>
-        </a>
-        <a target="_blank" class="box p-2 has-text-centered" href="https://qqq.124841.xyz">
-            <p>https://qqq.<font color="red">124841</font>.xyz <span speed="https://qqq.124841.xyz">测速中</span></p>
-        </a>
-        <a target="_blank" class="box p-2 has-text-centered" href="https://qqq.118533.xyz">
-            <p>https://qqq.<font color="red">118533</font>.xyz <span speed="https://qqq.118533.xyz">测速中</span></p>
-        </a>
-		<a target="_blank" class="box p-2 has-text-centered" href="https://qqq.548631.xyz">
-            <p>https://qqq.<font color="red">548631</font>.xyz <span speed="https://qqq.548631.xyz">测速中</span></p>
-        </a>
-        <a target="_blank" class="box p-2 has-text-centered" href="https://qqq.118633.xyz">
-            <p>https://qqq.<font color="red">118633</font>.xyz <span speed="https://qqq.118633.xyz">测速中</span></p>
-        </a>
-        <a target="_blank" class="box p-2 has-text-centered" href="https://qqq.654158.xyz">
-            <p>https://qqq.<font color="red">654158</font>.xyz <span speed="https://qqq.654158.xyz">测速中</span></p>
-        </a>
-		        <a target="_blank" class="box p-2 has-text-centered" href="https://qqq.118733.xyz">
-            <p>https://qqq.<font color="red">118733</font>.xyz <span speed="https://qqq.118733.xyz">测速中</span></p>
-        </a>
-        <a target="_blank" class="box p-2 has-text-centered" href="https://qqq.849641.xyz">
-            <p>https://qqq.<font color="red">849641</font>.xyz <span speed="https://qqq.849641.xyz">测速中</span></p>
-        </a>
-		<a target="_blank" class="box p-2 has-text-centered" href="https://qqq.118933.xyz">
-            <p>https://qqq.<font color="red">118933</font>.xyz <span speed="https://qqq.118933.xyz">测速中</span></p>
-        </a>
-        <a target="_blank" class="box p-2 has-text-centered" href="https://qqq.469831.xyz">
-            <p>https://qqq.<font color="red">469831</font>.xyz <span speed="https://qqq.469831.xyz">测速中</span></p>
-        </a>
-        <small><font color="red">* 因中国移动封禁较快，当前仅少数域名支持移动访问,推荐使用电信网络访问 *</font></small><br>
-     <small><font color="red">* 部分地区网络劫持导致打开的网站不是本站，请从发布页访问比较安全，推荐使用谷歌.edge等国外浏览器访问 *</font></small><br>
-      <!--  以下是全部的域名：<br>
-		<s style="color:gray">https://qqq.118433.xyz</s><br>-->
-</div>
+        <!-- 分类 2 -->
+        <div class="category">
+            <h2>漫画<div class="status-info">
+                    <span class="accessible-info"></span>可访问
+                    <span class="inaccessible-info"></span>不可访问
+                </div></h2>
+            <div class="links">
+                <a href="https://qqq.912220.xyz/" target="_blank" class="link">线路1</a>
+                <a href="https://qqq.912226.xyz/" target="_blank" class="link">线路2</a>
+                <!-- 可以继续添加更多链接 -->
+            </div>
+        </div>
+                <!-- 分类 3 -->
+        <div class="category">
+            <h2>小说<div class="status-info">
+                    <span class="accessible-info"></span>可访问
+                    <span class="inaccessible-info"></span>不可访问
+                </div></h2>
+            <div class="links">
+                <a href="https://qqq.912221.xyz/" target="_blank" class="link">线路1</a>
+                <a href="https://qqq.912227.xyz/" target="_blank" class="link">线路2</a>
+                <!-- 可以继续添加更多链接 -->
+            </div>
+        </div>
+                <!-- 分类 4 -->
+        <div class="category">
+            <h2>图片<div class="status-info">
+                    <span class="accessible-info"></span>可访问
+                    <span class="inaccessible-info"></span>不可访问
+                </div></h2>
+            <div class="links">
+                <a href="https://qqq.912223.xyz/" target="_blank" class="link">线路1</a>
+                <a href="https://qqq.912228.xyz/" target="_blank" class="link">线路2</a>
+                <!-- 可以继续添加更多链接 -->
+            </div>
+        </div>
+                <!-- 分类 5 -->
+        <div class="category">
+            <h2>搜索<div class="status-info">
+                    <span class="accessible-info"></span>可访问
+                    <span class="inaccessible-info"></span>不可访问
+                </div></h2>
+            <div class="links">
+                <a href="https://qqq.912224.xyz/" target="_blank" class="link">线路1</a>
+                <a href="https://qqq.912229.xyz/" target="_blank" class="link">线路2</a>
+                <!-- 可以继续添加更多链接 -->
+            </div>
+        </div>
+                 <!-- 分类 6 -->
+        <div class="category">
+            <h2>发布页<div class="status-info">
+                    <span class="accessible-info123"></span>打开后记得收藏
+                </div></h2>
+            <div class="links">
+                <a href="https://nbdizhi.github.io/xindizhi/" target="_blank" class="linkkk">https://q5x7.com</a>
+                <a href="https://nanrenlulu.github.io/" target="_blank" class="linkkk">https://jusaoge.com</a>
+                <a href="https://bitbucket.org/nanrenlulufabuye/fabuye/src/master/README.md" target="_blank" class="linkkk">https://saohuowa.com</a>
+                <a href="https://github.com/nanrenlulu/nanrenlulu/wiki/%E6%9C%80%E6%96%B0%E5%9C%B0%E5%9D%80" target="_blank" class="linkkk">https://jusaoge.com</a>
+                <!-- 可以继续添加更多链接 -->
+            </div>
+        </div>
+		                 <!-- 分类 7 -->
+        <div class="category">
+            <h2>联系方式<div class="status-info">
+                    <span class="accessible-info123"></span>会返回最新地址
+                </div></h2>
+            <div class="links">
+                <a href="https://t.me/nanrenlulu" target="_blank" class="linkkk">飞机:https://t.me/nanrenlulu</a>
+                <a href="mailto:nanrenlulu@gmail.com" target="_blank" class="linkkk">邮箱:nanrenlulu@gmail.com</a>
+                <!-- 可以继续添加更多链接 -->
+            </div>
+        </div>
+        <!-- 更多分类... -->
+    </div>
+    
+    <footer class="footer">
+    <div class="container">
+        <p>&copy; 2024 发布页. All rights reserved.</p>
+        <p>联系我们: nanrenlulu@gmail.com</p>
+        <p>更多信息: <a href="https://nbdizhi.github.io/xindizhi/">关于我们</a></p>
+        <!-- 您可以根据需要添加更多信息 -->
+    </div>
+</footer>
 
 
-<hr />
-<p>回家地址 1.1 → <a target="_blank" href="https://nanrenlulu.github.io/">https://juruwa.com</a> <span speed="https://nanrenlulu.github.io/">测速中</span></p>
-<p>回家地址 2.2 → <a target="_blank" href="https://bitbucket.org/nanrenlulufabuye/fabuye/src/master/README.md">https://saohuowa.com</a> <span speed="https://bitbucket.org/nanrenlulufabuye/fabuye/src/master/README.md">测速中</span></p>
-<p>回家地址 3.3 → <a target="_blank" href="https://github.com/nanrenlulu/nanrenlulu/wiki/%E6%9C%80%E6%96%B0%E5%9C%B0%E5%9D%80">https://jusaoge.com</a> <span speed="https://github.com/nanrenlulu/nanrenlulu/wiki/%E6%9C%80%E6%96%B0%E5%9C%B0%E5%9D%80">测速中</span></p>
-<p>回家地址 4.4 → <a target="_blank" href="https://nbdizhi.github.io/xindizhi/">https://q5x7.com</a> <span speed="https://nbdizhi.github.io/xindizhi/">测速中</span></p>
-<hr />
+    <a href="https://t.me/nanrenlulu" target="_blank" class="fixed-button left-button">飞机</a>
+    <a href="mailto:nanrenlulu@gmail.com" class="fixed-button right-button">邮箱</a>
 
-<hr /><!--
-<p><a target="_blank" href="https://qqq.118433.xyz"><img src="https://ldbbs.ldmnq.com/bbs/topic/images/2023-11/74f810df-d582-4cd2-81eb-cc5678913bd1.png" /></a></p>-->
-<!--
-<p>免费成人APP → <a target="_blank" href="https://juruwa.xyz">https://juruwa.xyz</a> <span speed="https://juruwa.xyz">测速中</span></p>
 
-<hr />
--->
+
 
 <script>
-  var ping = 1;
-  setInterval("ping++", 1);
+    function testSpeed(url, callback) {
+        var img = new Image();
+        var timeout = 7000; // 7秒超时
+        var timer;
+        var startTime, endTime;
 
-  function test (i) {
-    $("span[speed]").each(function (x) {
-      if (i === x) {
-        $(this).css("color","#f0f0f0")
-        var str ="暂无结果，请稍后刷新重测"
-        if (ping<200){
-            $(this).css("color","red")
-            str ="极快"
-        }
-        if (ping>300 && ping<500){
-            $(this).css("color","#efc562")
-            str ="较快"
-        }
-        if (ping>500 && ping<3000 ){
-            $(this).css("color","#9a9a9a")
-            str ="较慢"
-        }
-        if (ping>4000 ){
-            $(this).css("color","#f0f0f0")
-            str ="疑似无法访问，刷新本页可重测"
-        }
-        $(this).text(""+str+"")
-        // $(this).text(""+str+"" + "(" + ping * 1 + "ms)") 包含延时
-        //ping=1;
-      }
+        img.onload = function() {
+            clearTimeout(timer);
+            endTime = (new Date()).getTime();
+            var duration = endTime - startTime; // 毫秒数
+            callback(null, duration);
+        };
+
+        img.onerror = function() {
+            clearTimeout(timer);
+            callback('Error loading image or timeout.', null);
+        };
+
+        startTime = (new Date()).getTime();
+        img.src = url + '/nr.ico?n=' + startTime; // 使用 favicon 作为测试对象
+
+        // 设置超时定时器
+        timer = setTimeout(function() {
+            img.onload = img.onerror = null; // 取消事件监听
+            callback('Timeout', null);
+        }, timeout);
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const links = document.querySelectorAll('.link');
+
+        links.forEach(link => {
+            const url = link.getAttribute('href');
+
+            testSpeed(url, function(err, duration) {
+                if (err) {
+                    link.classList.add('inaccessible'); // 超时或错误
+                    console.log('测试失败或超时:', url);
+                } else {
+                    link.classList.add('accessible'); // 成功加载
+                    console.log('加载时间:', duration, 'ms', 'URL:', url);
+                }
+            });
+        });
     });
-  }
-  $(function () {
-    $("span[speed]").each(function (i) {
-      var sortid = $(this).attr("speed");
-      var self = $(this);
-      self.append('<img src="' + sortid + '?' + Math.random() + '" width="1" height="1" style="display:none" onerror=test(' + i + ') >')
-    });
-  });
 </script>
 
+<!--    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const links = document.querySelectorAll('.link');
 
-<br><br><br><br>
+        links.forEach(link => {
+            const url = link.getAttribute('href');
 
-<a href="https://t.me/nanrenlulu" target="_blank" style="z-index: 9999;" aria-label="Telegram群">
-  <button class="telegram-btn">Telegram群</button>
-  <style>.telegram-btn {position: fixed;bottom: 0rem;left: 0rem;background-color: #5865F2;padding: 1.5rem;height: auto;color: white;text-align: right;vertical-align: middle;border: none;font-size: 1.5rem;border-radius: 4px;}.telegram-btn svg {height: 1.5rem;position: absolute;top: 50%;left: 0;transform: translateY(-50%);}.telegram-btn:hover svg{animation:telegram-wave 560ms ease-in-out;}@keyframes telegram-wave{0%,100%{transform:translateY(-50%) rotate(0)}20%,60%{transform:translateY(-50%) rotate(-25deg)}40%,80%{transform:translateY(-50%) rotate(10deg)}}@media (max-width:500px){.telegram-btn:hover svg{animation:none}.telegram-btn svg{animation:telegram-wave 560ms ease-in-out}}</style>
-</a>
+            fetch(`https://wangzhangongju.codered.cloud/ztm.php?url=${encodeURIComponent(url)}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 200) {
+                        link.classList.add('accessible');
+                    } else {
+                        link.classList.add('inaccessible');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    link.classList.add('inaccessible');
+                });
+        });
+    });
+</script>-->
 
-<a href="mailto:nanrenlulu@gmail.com" target="_blank" style="z-index: 9999;" aria-label="回家邮箱">
-  <button class="discord-btn">回家邮箱</button>
-  <style>.discord-btn {position: fixed;bottom: 0rem;right: 0rem;background-color: #5865F2;padding: 1.5rem;height: auto;color: white;text-align: right;vertical-align: middle;border: none;font-size: 1.5rem;border-radius: 4px;}.discord-btn svg {height: 1.5rem;position: absolute;top: 50%;left: 0;transform: translateY(-50%);}.discord-btn:hover svg{animation:discord-wave 560ms ease-in-out;}@keyframes discord-wave{0%,100%{transform:translateY(-50%) rotate(0)}20%,60%{transform:translateY(-50%) rotate(-25deg)}40%,80%{transform:translateY(-50%) rotate(10deg)}}@media (max-width:500px){.discord-btn:hover svg{animation:none}.discord-btn svg{animation:discord-wave 560ms ease-in-out}}</style>
-</a>
+    <!--
+    <script>
+        function checkAccessibility(url) {
+            return new Promise((resolve, reject) => {
+                let timer = setTimeout(() => {
+                    reject('timeout');
+                }, 5000); // 5秒超时
 
+                fetch(url, { mode: 'no-cors' })
+                    .then(() => {
+                        clearTimeout(timer);
+                        resolve('accessible');
+                    })
+                    .catch(() => {
+                        clearTimeout(timer);
+                        reject('inaccessible');
+                    });
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('.link');
+
+            links.forEach(link => {
+                const url = link.getAttribute('href');
+
+                checkAccessibility(url)
+                    .then(status => {
+                        if (status === 'accessible') {
+                            link.classList.add('accessible');
+                        }
+                    })
+                    .catch(error => {
+                        if (error === 'timeout' || error === 'inaccessible') {
+                            link.classList.add('inaccessible');
+                        }
+                    });
+            });
+        });
+    </script>
+    -->
 </body>
 </html>
